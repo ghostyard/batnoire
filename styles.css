@@ -4,7 +4,7 @@
     --grey-300: #282828ff;
     --grey-400: #373737ff;
     --grey-500: #454545ff;
-    --grey-600: #d4d4d4ff;
+    --grey-600: #d4d4d4;
     --grey-700: #e3e3e3ff;
     --accent-blue: #789fc0ff;
     --accent-red: #B31919;
@@ -18,6 +18,12 @@ body {
     font-family:'geist';
     font-size:0.9rem;
     line-height:145%;
+}
+
+a {
+    color:var(--accent-blue);
+    text-decoration:none;
+    font-weight:bold;
 }
 
 #hero {
@@ -70,4 +76,56 @@ body {
 .right-align i {
     margin-right:0px!important;
     margin-left:8px;
+}
+
+#container {
+    width:600px;
+    line-height:160%;
+    margin:auto;
+    margin:100px auto;
+}
+
+.rules span {
+    background-color:var(--accent-blue);
+    font-family:'geist mono';
+    color:var(--grey-200);
+    padding:1px 5px;
+}
+
+#container h2 {
+    font-family:'geist';
+    text-transform:uppercase;
+    text-align:center;
+    font-size:0.8rem;
+    letter-spacing:10px;
+}
+
+
+#container subtitle {
+    font-family:'geist mono';
+    font-size:0.7rem;
+    color:var(--grey-500);
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:bold;
+}
+
+.divider {
+    width:1px;
+    height:120px;
+    margin: 56px auto;
+    background-color:var(--accent-blue);
+}
+
+#profile {
+    column-count: 2;
+}
+
+#profile strong {
+    background-color:var(--accent-blue);
+    font-family:'geist mono';
+    color:var(--grey-200);
+    padding:1px 3px;
+    font-size:0.8rem;
+    text-transform:uppercase
 }
