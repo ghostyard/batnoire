@@ -1,0 +1,73 @@
+:root {
+    --grey-100: #0b0b0bff;
+    --grey-200: #1a1a1aff;
+    --grey-300: #282828ff;
+    --grey-400: #373737ff;
+    --grey-500: #454545ff;
+    --grey-600: #d4d4d4ff;
+    --grey-700: #e3e3e3ff;
+    --accent-blue: #789fc0ff;
+    --accent-red: #B31919;
+}
+
+body {
+    background-color:var(--grey-200);
+    color:var(--grey-700);
+    margin:0;
+    padding:0;
+    font-family:'geist';
+    font-size:0.9rem;
+    line-height:145%;
+}
+
+#hero {
+    
+    width:90vw;
+    margin:auto;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+
+#hero img {
+    height:100%;
+    width:auto;
+}
+
+#hero a {
+    color:var(--grey-700);
+    font-family:'geist mono';
+    text-decoration:none;
+    padding:8px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-size:0.8rem;
+    border-bottom:2px solid var(--accent-blue);
+    transition:0.5s;
+    width:160px;
+    display:flex;
+    align-items:center;
+}
+
+#hero a:hover {
+    letter-spacing:5px;
+    transition:0.5s;
+}
+
+#hero a i {
+    font-size:1.5rem;
+    margin-right:8px;
+    color:var(--accent-blue);
+}
+
+.right-align {
+    justify-content:right;
+}
+
+.right-align i {
+    margin-right:0px!important;
+    margin-left:8px;
+}
