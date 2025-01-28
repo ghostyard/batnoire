@@ -26,6 +26,45 @@ a {
     font-weight:bold;
 }
 
+#topbar {
+    width:calc(100vw - 80px);
+    top:0;
+    left:0;
+    padding:10px 30px;
+    position:fixed;
+    height:30px;
+    background-color:var(--grey-200);
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom:2px solid var(--grey-300);
+
+}
+
+.topbar-left {
+    display:flex;
+    gap:24px;
+}
+
+#topbar .current {
+    border-bottom:2px solid var(--accent-blue);
+}
+
+#topbar a {
+    display:flex;
+    align-items:center;
+    padding-bottom:3px;
+    text-transform:uppercase;
+    font-family:'geist mono';
+
+}
+
+#topbar a i {
+    font-size:1.2rem;
+    margin-right:8px;
+
+}
+
 #hero {
     
     width:90vw;
