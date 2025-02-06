@@ -444,3 +444,67 @@ label {
   color:var(--accent-blue);
   text-decoration:none;
 }
+
+/** about **/
+
+#about {
+  margin:80px auto;
+  width:850px;
+  outline:1px solid var(--grey-300);
+  outline-offset:24px;
+  background-color:var(--grey-200);
+}
+
+.header {
+  border-bottom:1px solid var(--grey-300);
+}
+
+#img {
+  text-align:center;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+#img img {
+  height:150px;
+  margin-top:40px;
+  width:auto;
+}
+
+.topinfo, .bodyinfo {
+  padding:24px;
+}
+
+.basics img {
+  float:left;
+  margin-right:16px;
+}
+
+.innerheader {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  row-gap:4px;
+  flex-wrap:wrap;
+}
+
+#about info {
+  display:flex;
+  
+}
+
+#about info b {
+  margin-right:8px;
+}
+
+#about info span {
+  border-bottom:1px solid var(--grey-600);
+
+  font-size:0.8rem;
+}
+
+.history {
+  font-family:'geist mono';
+  font-size:0.8rem;
+}
